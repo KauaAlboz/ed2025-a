@@ -11,7 +11,7 @@ public class JogaJogoDaVelha {
         while (opcao!=0) {
             System.out.println("Digite um número inteiro para a dimensão do tabuleiro: ");
             int dimensao = scanner.nextInt();
-            JogoDaVelha jogo = new JogoDaVelha(dimensao);
+            JogaJogoDaVelha jogo = new JogaJogoDaVelha(dimensao);
             int i, j;
             while (jogo.vencedor() == 2) {
                 i = random.nextInt(3);
